@@ -9,7 +9,7 @@ SolidCompression=yes
 OutputBaseFilename=CalculatorSetup
 
 [Files]
-Source: "RELEASE\Calculator.exe"; DestDir: "{app}"
+Source: "Release\Calculator.exe"; DestDir: "{app}"
 
 [Icons]
 Name: "{group}\Calculator"; Filename: "{app}\Calculator.exe"

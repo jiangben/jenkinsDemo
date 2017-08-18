@@ -18,8 +18,5 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\UnitTest\cppunit-1.12.1\include\msvc6\DSPlugin\TestRunnerDSPluginVC6_i.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

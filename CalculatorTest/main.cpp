@@ -34,7 +34,7 @@ public:
 public:
 	void testAdd()
 	{
-		CPPUNIT_ASSERT(3 == m_calculator->add(1, 2));
+		CPPUNIT_ASSERT(1 == m_calculator->add(1, 2));
 	}
 
 	void testSub()

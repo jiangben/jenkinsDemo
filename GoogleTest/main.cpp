@@ -39,10 +39,8 @@ TEST(TestCalculator, testALL)
 
 int main(int argc, char* argv[])
 {
-	char *option[] = { "test.exe", //it doesn't have meaning, just dummy
-		"--gtest_output=xml:testAll.xml" };
-	int t_argc = 2;
-	testing::InitGoogleTest(&t_argc, option);
-	RUN_ALL_TESTS();	
+	testing::InitGoogleTest(&argc, argv);
+	RUN_ALL_TESTS();
+	system("PAUSE");
 	return 0;
 }

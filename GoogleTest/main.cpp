@@ -27,13 +27,13 @@ TEST_F(CalculatorTest, testsub){
 TEST(TestCalculator, testALL)
 {
 	Calculator calculator;
-	EXPECT_EQ(2, calculator.add(2,0));
-	EXPECT_EQ(6, calculator.add(2,4));
-	EXPECT_EQ(7, calculator.add(2,5));
+	EXPECT_EQ(12, calculator.add(2,0));
+	EXPECT_EQ(16, calculator.add(2,4));
+	EXPECT_EQ(17, calculator.add(2,5));
 	
-	EXPECT_EQ(7, calculator.sub(7, 0));
-	EXPECT_EQ(5, calculator.sub(9, 4));
-	EXPECT_EQ(0, calculator.sub(5, 5));
+	EXPECT_EQ(17, calculator.sub(7, 0));
+	EXPECT_EQ(15, calculator.sub(9, 4));
+	EXPECT_EQ(10, calculator.sub(5, 5));
 }
 
 
